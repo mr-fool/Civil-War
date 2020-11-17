@@ -1,0 +1,22 @@
+# Windows-related files
+
+
+*.rpyc
+*.rpyb
+*.rpymc
+*.pyc
+*.pyo
+
+*~
+*.bak
+
+
+log.txt
+
+*.rpyb
+game/cache/screens.rpyb
+*.rpyb
+*.save
+*.json
+traceback.txt
+game/saves/persistent
