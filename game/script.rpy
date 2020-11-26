@@ -248,4 +248,17 @@ label sixth:
     scene scene37
     e "Foot soldier is the only group other than the elites that are receiving a decent amount of food. The foot soldier usually gets around 50-60g of rice per day."
 
+label seventh:
+    stop music
+    play music "audio/Gloria.mp3"    
+
+    e "The young male demographic was excited at the beginning of the war. They were all thinking that the war would be their moment to shine."
+
+    e "The rose blossom smile on their face when they first wore their battle uniforms. Girls on both sides of the main street cheered them on and drums beat as they marched to war. "
+
+    e "They thought it would be a short and glorious war. They could not have been more wrong. "
+
+    e "Having served in the Great Meme War (four tours in the USA, Germany, France and UK)  prior, the bloodiest war ever recorded in the history of the internet, I know war is never short and glorious."
+
+    e "I am not some POG, fobbit, non combat type who completed the basic training but never deployed. I have seen my comrades getting blown away right next to me and tortured by enemies. "
     return
