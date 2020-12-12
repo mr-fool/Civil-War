@@ -57,6 +57,13 @@ image scene35 = "bg/sixth/scene5.png"
 image scene36 = "bg/sixth/scene6.png"
 image scene37 = "bg/sixth/scene7.png"
 
+#Imagine resource for the seventh part
+image scene38 = "bg/seventh/scene1.png"
+image scene39 = "bg/seventh/scene2.png"
+image scene40 = "bg/seventh/scene3.png"
+image scene41 = "bg/seventh/scene4.png"
+image scene42 = "bg/seventh/scene5.png"
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -252,13 +259,18 @@ label seventh:
     stop music
     play music "audio/Gloria.mp3"    
 
+    scene scene38
     e "The young male demographic was excited at the beginning of the war. They were all thinking that the war would be their moment to shine."
 
+    scene scene39
     e "The rose blossom smile on their face when they first wore their battle uniforms. Girls on both sides of the main street cheered them on and drums beat as they marched to war. "
 
+    scene scene40
     e "They thought it would be a short and glorious war. They could not have been more wrong. "
 
+    scene scene41
     e "Having served in the Great Meme War (four tours in the USA, Germany, France and UK)  prior, the bloodiest war ever recorded in the history of the internet, I know war is never short and glorious."
 
+    scene scene42
     e "I am not some POG, fobbit, non combat type who completed the basic training but never deployed. I have seen my comrades getting blown away right next to me and tortured by enemies. "
     return
