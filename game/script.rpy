@@ -273,4 +273,31 @@ label seventh:
 
     scene scene42
     e "I am not some POG, fobbit, non combat type who completed the basic training but never deployed. I have seen my comrades getting blown away right next to me and tortured by enemies. "
+
+label eighth:
+    stop music
+    play music
+
+
+    e "Television networks were reporting victories after victories."
+
+    e "One memorable interview was done by a government network, CAC, where the network interviewed a young soldier holding up a capture flag from the enemy’s military headquarter." 
+
+    e "At that point, I thought I was missing out by staying at home. This was exacerbated by the guilt-shame stare people shot at me everywhere I went. It was driving me nuts." 
+
+    e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line."
+
+    e "The media was heavily censored and reporting alternative truth so people thought everything was under control. There were however small citizen journalist groups that were reporting the truth over the internet."
+
+
+    e "They reported the actual material shortage in the front line. For example, soldiers had to improvise and duct tape magazines together as the shortage of vests persisted.  The authorities dealt with them quickly, labeled them conspiracy theorists, and executed them. 
+
+    e "It did not take long before my town was under siege and shelled. The establishment could no longer hide the truth. People were forced to wake up to the reality."
+
+    e "The alternative truth media is no longer useful to the elites so they have become the pleb class. At first, people would fork over top dollars to fuck former news anchors as it was the new and hip thing. Soon the cool factor died off. Most of them become addicted to drugs. Drugs have taken a toll on their once beautiful bodies.  Like most wars, it eventually reached a stalemate."
+
+    e "Despite that most people are unable to accept that and believe in a final victory. People lost hope. People looked right through me as they realized that I was right about the war from the beginning. It will be a prolonged war."
+
+    e "People turn to drugs to cope as resources become scarce.  This leads to the rise of mafia power. The government turned a blind eye to it as they also want a pacified public too. In addition, the government encouraged the consumption of soy based products in an attempt to pacify the public."
+
     return
