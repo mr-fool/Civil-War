@@ -20,3 +20,4 @@ game/cache/screens.rpyb
 *.json
 traceback.txt
 game/saves/persistent
+errors.txt

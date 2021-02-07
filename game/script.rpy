@@ -276,7 +276,7 @@ label seventh:
 
 label eighth:
     stop music
-    play music
+    play music "audio/Mars na Drinu.mp3"
 
 
     e "Television networks were reporting victories after victories."
@@ -290,7 +290,7 @@ label eighth:
     e "The media was heavily censored and reporting alternative truth so people thought everything was under control. There were however small citizen journalist groups that were reporting the truth over the internet."
 
 
-    e "They reported the actual material shortage in the front line. For example, soldiers had to improvise and duct tape magazines together as the shortage of vests persisted.  The authorities dealt with them quickly, labeled them conspiracy theorists, and executed them. 
+    e "They reported the actual material shortage in the front line. For example, soldiers had to improvise and duct tape magazines together as the shortage of vests persisted.  The authorities dealt with them quickly, labeled them conspiracy theorists, and executed them." 
 
     e "It did not take long before my town was under siege and shelled. The establishment could no longer hide the truth. People were forced to wake up to the reality."
 
