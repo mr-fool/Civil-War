@@ -64,6 +64,10 @@ image scene40 = "bg/seventh/scene3.png"
 image scene41 = "bg/seventh/scene4.png"
 image scene42 = "bg/seventh/scene5.png"
 
+#Imagine resource for the eighth part
+image scene43 = "bg/eighth/scene1.png"
+image scene44 = "bg/eighth/scene2.png"
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -278,9 +282,10 @@ label eighth:
     stop music
     play music "audio/Mars na Drinu.mp3"
 
-
+    scene scene43
     e "Television networks were reporting victories after victories."
 
+    scene scene44
     e "One memorable interview was done by a government network, CAC, where the network interviewed a young soldier holding up a capture flag from the enemy’s military headquarter." 
 
     e "At that point, I thought I was missing out by staying at home. This was exacerbated by the guilt-shame stare people shot at me everywhere I went. It was driving me nuts." 
