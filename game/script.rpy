@@ -64,6 +64,11 @@ image scene40 = "bg/seventh/scene3.png"
 image scene41 = "bg/seventh/scene4.png"
 image scene42 = "bg/seventh/scene5.png"
 
+#Imagine resource for the eighth part
+image scene43 = "bg/eighth/scene1.png"
+image scene44 = "bg/eighth/scene2.png"
+image scene45 = "bg/eighth/scene3.png"
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -278,14 +283,16 @@ label eighth:
     stop music
     play music "audio/Mars na Drinu.mp3"
 
-
+    scene scene43
     e "Television networks were reporting victories after victories."
 
+    scene scene44
     e "One memorable interview was done by a government network, CAC, where the network interviewed a young soldier holding up a capture flag from the enemy’s military headquarter." 
 
+    scene scene45
     e "At that point, I thought I was missing out by staying at home. This was exacerbated by the guilt-shame stare people shot at me everywhere I went. It was driving me nuts." 
 
-    e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line."
+    e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line. As expected, this caused mass panic."
 
     e "The media was heavily censored and reporting alternative truth so people thought everything was under control. There were however small citizen journalist groups that were reporting the truth over the internet."
 
