@@ -64,6 +64,15 @@ image scene40 = "bg/seventh/scene3.png"
 image scene41 = "bg/seventh/scene4.png"
 image scene42 = "bg/seventh/scene5.png"
 
+#Imagine resource for the eighth part
+image scene43 = "bg/eighth/scene1.png"
+image scene44 = "bg/eighth/scene2.png"
+image scene45 = "bg/eighth/scene3.png"
+image scene46 = "bg/eighth/scene4.png"
+image scene47 = "bg/eighth/scene5.png"
+image scene48 = "bg/eighth/scene6.png"
+image scene49 = "bg/eighth/scene7.png"
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -278,20 +287,30 @@ label eighth:
     stop music
     play music "audio/Mars na Drinu.mp3"
 
-
+    scene scene43
     e "Television networks were reporting victories after victories."
 
+    scene scene44
     e "One memorable interview was done by a government network, CAC, where the network interviewed a young soldier holding up a capture flag from the enemy’s military headquarter." 
 
+    scene scene45
     e "At that point, I thought I was missing out by staying at home. This was exacerbated by the guilt-shame stare people shot at me everywhere I went. It was driving me nuts." 
 
-    e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line."
+    scene scene46
+    $ renpy.movie_cutscene("shortage.webm")
+    
+    scene scene46
+    e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line. As expected, this caused mass panic."
 
+    scene scene47
     e "The media was heavily censored and reporting alternative truth so people thought everything was under control. There were however small citizen journalist groups that were reporting the truth over the internet."
 
-
+    scene scene48
     e "They reported the actual material shortage in the front line. For example, soldiers had to improvise and duct tape magazines together as the shortage of vests persisted.  The authorities dealt with them quickly, labeled them conspiracy theorists, and executed them." 
 
+    scene scene49
+    $ renpy.movie_cutscene("shelling.webm")
+    scene scene49
     e "It did not take long before my town was under siege and shelled. The establishment could no longer hide the truth. People were forced to wake up to the reality."
 
     e "The alternative truth media is no longer useful to the elites so they have become the pleb class. At first, people would fork over top dollars to fuck former news anchors as it was the new and hip thing. Soon the cool factor died off. Most of them become addicted to drugs. Drugs have taken a toll on their once beautiful bodies.  Like most wars, it eventually reached a stalemate."
