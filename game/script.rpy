@@ -329,4 +329,20 @@ label eighth:
     scene scene53
     e "People turn to drugs to cope as resources become scarce.  This leads to the rise of mafia power. The government turned a blind eye to it as they also want a pacified public too. In addition, the government encouraged the consumption of soy based products in an attempt to pacify the public."
 
+label ninth:
+    
+    e "It is hard to recollect how it all started but I will try my best. Every morning when I wake up, I feel like the war started yesterday. Everything happens too quickly. It is just surreal."
+
+    e "It is hard to nail what single factor started the war. It just falls like a house of cards. Before the start of the civil war, Canada underwent 3 years of economic hardship." 
+    
+    e "Mainstream centrist parties were uninspiring and corrupt. The leaders went on fancy vacations while the public were left to die." 
+    
+    e "To the average public, there seemed to be no end to the abyss. Centrist parties were gradually replaced by radicals. Under the radicals’ vision, Canada was being reimagined."
+    
+    e "Different identity groups who previously lived in harmony now blamed each other for their problems."
+    
+    e "There were constant small clashes in the street. I classified those as riots but not a civil war."
+    
+    e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
+
     return
