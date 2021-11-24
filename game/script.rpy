@@ -77,6 +77,10 @@ image scene51 = "bg/eighth/scene9.png"
 image scene52 = "bg/eighth/scene10.png"
 image scene53 = "bg/eighth/scene11.png"
 
+#Imagine resource for the ninth part
+image scene54 = "bg/ninth/scene1.png"
+image scene55 = "bg/ninth/scene2.png"
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -330,7 +334,14 @@ label eighth:
     e "People turn to drugs to cope as resources become scarce.  This leads to the rise of mafia power. The government turned a blind eye to it as they also want a pacified public too. In addition, the government encouraged the consumption of soy based products in an attempt to pacify the public."
 
 label ninth:
+    stop music
+    play music "audio/sokoly.mp3"
     
+    
+    scene scene54
+    pause #
+
+    scene scene55
     e "It is hard to recollect how it all started but I will try my best. Every morning when I wake up, I feel like the war started yesterday. Everything happens too quickly. It is just surreal."
 
     e "It is hard to nail what single factor started the war. It just falls like a house of cards. Before the start of the civil war, Canada underwent 3 years of economic hardship." 
@@ -342,6 +353,7 @@ label ninth:
     e "Different identity groups who previously lived in harmony now blamed each other for their problems."
     
     e "There were constant small clashes in the street. I classified those as riots but not a civil war."
+
     
     e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
 

@@ -12,6 +12,7 @@ init python:
     mr.add("audio/Life.mp3", always_unlocked=True)
     mr.add("audio/Gloria.mp3", always_unlocked=True)
     mr.add("audio/Mars na Drinu.mp3", always_unlocked=True)
+    mr.add("audio/sokoly.mp3", always_unlocked=True)
 
 # Step 3. Create the music room screen.
 screen music_room:
@@ -30,6 +31,7 @@ screen music_room:
         textbutton "Where my life came into bloom" action mr.Play("audio/Life.mp3")
         textbutton "Gloria" action mr.Play("audio/Gloria.mp3")
         textbutton "Mars na Drinu" action mr.Play("audio/Mars na Drinu.mp3")
+        textbutton "Hej Sokoly" action mr.Play("audio/sokoly.mp3")
         
         null height 20
 
