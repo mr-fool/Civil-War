@@ -80,6 +80,12 @@ image scene53 = "bg/eighth/scene11.png"
 #Imagine resource for the ninth part
 image scene54 = "bg/ninth/scene1.png"
 image scene55 = "bg/ninth/scene2.png"
+image scene56 = "bg/ninth/scene3.png"
+image scene57 = "bg/ninth/scene4.png"
+image scene58 = "bg/ninth/scene5.png"
+image scene59 = "bg/ninth/scene6.png"
+image scene60 = "bg/ninth/scene7.png"
+image scene61 = "bg/ninth/scene8.png"
 
 label splashscreen:
     stop music
@@ -344,17 +350,24 @@ label ninth:
     scene scene55
     e "It is hard to recollect how it all started but I will try my best. Every morning when I wake up, I feel like the war started yesterday. Everything happens too quickly. It is just surreal."
 
+    scene scene56
+    $ renpy.movie_cutscene("collapse.webm")
+    scene scene56
     e "It is hard to nail what single factor started the war. It just falls like a house of cards. Before the start of the civil war, Canada underwent 3 years of economic hardship." 
     
+    scene scene57
     e "Mainstream centrist parties were uninspiring and corrupt. The leaders went on fancy vacations while the public were left to die." 
     
+    scene scene58
     e "To the average public, there seemed to be no end to the abyss. Centrist parties were gradually replaced by radicals. Under the radicals’ vision, Canada was being reimagined."
     
+    scene scene59
     e "Different identity groups who previously lived in harmony now blamed each other for their problems."
     
+    scene scene60
     e "There were constant small clashes in the street. I classified those as riots but not a civil war."
 
-    
+    scene scene61
     e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
 
     return
