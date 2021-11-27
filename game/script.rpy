@@ -370,4 +370,20 @@ label ninth:
     scene scene61
     e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
 
+label tenth:
+    e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live."
+
+    e "I came across it through the dissenter network.  The footage was reposted, shared and upvoted. "
+    
+    e "Phrases like “reimagineCanada” and “Do you want to be part of the new future” were trending." 
+
+    e "I watched the playback of the speech. It was different from your average boring centralist’s speech. "
+
+    e "I could feel the electric atmosphere and the sturdy hand gesture as he spoke. Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young male like me."  
+    
+    e "The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore."
+
+    e "The sudden realization made everything seem possible. It all made sense why young male were not well-off in modern society.  I no longer feel alone. This particular part of the speech stuck in my mind, 'Many powers are against us but this time God is with us and we will win '"
+
+
     return
