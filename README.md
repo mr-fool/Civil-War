@@ -2,6 +2,11 @@
 Ren py Visual Novel project
 How to run the code
 Quickstart
+![github](https://user-images.githubusercontent.com/6241984/194965427-9e1dd341-7aa3-4482-af99-19facbbbf849.JPG)
+
+
+![github1](https://user-images.githubusercontent.com/6241984/194965447-02ea1a7b-5d92-4dbe-857c-4f99f92381ac.JPG)
+
 
 Welcome to the Ren'Py quickstart manual. The purpose of this manual is to demonstrate how you can make a Ren'Py game from scratch in a few easy steps. We'll do this by showing how to make a simple game, The Question.
 The Ren'Py Launcher
