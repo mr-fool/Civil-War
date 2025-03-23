@@ -371,19 +371,21 @@ label ninth:
     e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
 
 label tenth:
-    e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live."
 
-    e "I came across it through the dissenter network.  The footage was reposted, shared and upvoted. "
+    e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live. I came across it through the dissenter network. The footage was reposted, shared, and upvoted. Phrases like 'reimagineCanada' and 'Do you want to be part of the new future' were trending."
     
-    e "Phrases like “reimagineCanada” and “Do you want to be part of the new future” were trending." 
-
-    e "I watched the playback of the speech. It was different from your average boring centralist’s speech. "
-
-    e "I could feel the electric atmosphere and the sturdy hand gesture as he spoke. Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young male like me."  
+    e "I watched the playback of the speech. It was different from your average boring centrist’s speech. I could feel the electric atmosphere and the sturdy hand gesture as he spoke. Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young males like me. The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore. The sudden realization made everything seem possible. It all made sense why young males were not well-off in modern society. I no longer feel alone. This particular part of the speech stuck in my mind: 'Many powers are against us but this time God is with us and we will win."
     
-    e "The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore."
+    e "For every action, there is an equal and opposite reaction. The elites and authorities further responded by portraying feminized males as the 'real male.' Centralists desperately tried to rally and mobilize femboys, soyboys, and feminists to defend the power structure. All was lost when the authorities’ femboy thugs clashed with the radicals. The femboys were no match to the radicals despite being armed with batons. The first encounter emboldened the radical and it all escalated."
 
-    e "The sudden realization made everything seem possible. It all made sense why young male were not well-off in modern society.  I no longer feel alone. This particular part of the speech stuck in my mind, 'Many powers are against us but this time God is with us and we will win '"
+    e "Propaganda from the radicals started to circulate portraying a muscular young male hero called Knock Out Man capable of knocking out the authorities’ femboy thug with a single punch."
+
+    e "Towns were divided between revolutionaries and counter-revolutionaries. The authorities began terrorizing the public, dragging potential revolutionaries to secret prisons. Black four-door sedans would show up in the middle of the night grabbing people. Those people were never seen again."
+
+    e "The terror period resulted in radical parties forming their own paramilitary groups patrolling the streets. People cheered on as the young guards patrolled the street. The ranks were tightly closed with strong marching beats. People saw hope in this reimagined Canada. The street was cleaned. Radical groups handed out food to the homeless, elders, and the disenfranchised people. Parties’ banners fly all over the street. Previously closed shops were making guns. Even the moderate felt the pressure and replaced the national Canadian flag. Moderates were the new minority. Unity amongst provinces was gone. People questioned what they have in common with people in other provinces."
+
+    e "The good days rarely last. Soon, we were at an economic crisis again and full-scale war broke out. The purpose of the war became less and less clear as the war went on."
+
 
 
     return
