@@ -93,7 +93,9 @@ label splashscreen:
     with Pause(5)
     hide disclaimer
 
-    $ renpy.movie_cutscene("gunFightwithSound.webm")
+    play movie "images/gunFightwithSound.webm"  
+    $ renpy.pause(2.0, hard=True) 
+    stop movie
 
     return
 
@@ -138,7 +140,10 @@ label start:
 
     stop music
     show scene6
-    $ renpy.movie_cutscene("pound.webm")
+    
+    play movie "images/pound.webm"  # Use the path from your screenshot
+    $ renpy.pause(7.0, hard=True)  # 7 seconds duration as you specified
+    stop movie
     
     play  sound "audio/artillery.mp3"
     scene scene6
@@ -174,7 +179,12 @@ label second:
 
     stop music
     show scene12
-    $ renpy.movie_cutscene("bodies.webm")
+
+
+    play movie "images/bodies.webm"  # Use the path from your screenshot
+    $ renpy.pause(6.0, hard=True)  # 6 seconds duration as you specified
+    stop movie
+
     scene scene12
     e "Now my food source is just new dead bodies that I can find on the street. It is not as bad as you think."
 
@@ -238,7 +248,10 @@ label fifth:
 
     #bonus
     show scene27
-    $ renpy.movie_cutscene("rocket.webm")
+    
+    play movie "images/rocket.webm"  # Use the path from your screenshot
+    $ renpy.pause(4.0, hard=True)  # 4 seconds duration as you specified
+    stop movie
 
     scene scene27
     e "My daily routine is really not that different from the pre-war period. After I wake up, I wait until the artillery fire stops, then different paramilitary forces start shooting at each other."
@@ -311,7 +324,10 @@ label eighth:
     e "At that point, I thought I was missing out by staying at home. This was exacerbated by the guilt-shame stare people shot at me everywhere I went. It was driving me nuts." 
 
     scene scene46
-    $ renpy.movie_cutscene("shortage.webm")
+
+    play movie "images/shortage.webm"  # Use the path from your screenshot
+    $ renpy.pause(15.0, hard=True)  # 15 seconds duration as you specified
+    stop movie
     
     scene scene46
     e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line. As expected, this caused mass panic."
@@ -323,7 +339,11 @@ label eighth:
     e "They reported the actual material shortage in the front line. For example, soldiers had to improvise and duct tape magazines together as the shortage of vests persisted.  The authorities dealt with them quickly, labeled them conspiracy theorists, and executed them." 
 
     scene scene49
-    $ renpy.movie_cutscene("shelling.webm")
+
+    play movie "images/shelling.webm"  # Use the path from your screenshot
+    $ renpy.pause(24.0, hard=True)  # 24 seconds duration as you specified
+    stop movie
+    
     scene scene49
     e "It did not take long before my town was under siege and shelled. The establishment could no longer hide the truth. People were forced to wake up to the reality."
 
@@ -351,7 +371,11 @@ label ninth:
     e "It is hard to recollect how it all started but I will try my best. Every morning when I wake up, I feel like the war started yesterday. Everything happens too quickly. It is just surreal."
 
     scene scene56
-    $ renpy.movie_cutscene("collapse.webm")
+    
+    play movie "images/collapse.webm"  # Use the path from your screenshot
+    $ renpy.pause(3.0, hard=True)  # 3 seconds duration as you specified
+    stop movie
+
     scene scene56
     e "It is hard to nail what single factor started the war. It just falls like a house of cards. Before the start of the civil war, Canada underwent 3 years of economic hardship." 
     
@@ -371,19 +395,49 @@ label ninth:
     e "It all changed on June 27 a speech given in Truro Public Square. A bald middle aged man with a mustache wearing a black mariner hat gave a speech on the oppressed young male."
 
 label tenth:
+    stop music
 
-    e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live. I came across it through the dissenter network. The footage was reposted, shared, and upvoted. Phrases like 'reimagineCanada' and 'Do you want to be part of the new future' were trending."
+    #scene 1  The Spark of Rebellion
+    e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live. "
+    e "I came across it through the dissenter network. The footage was reposted, shared, and upvoted. Phrases like 'reimagineCanada' and 'Do you want to be part of the new future' were trending."
     
-    e "I watched the playback of the speech. It was different from your average boring centrist’s speech. I could feel the electric atmosphere and the sturdy hand gesture as he spoke. Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young males like me. The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore. The sudden realization made everything seem possible. It all made sense why young males were not well-off in modern society. I no longer feel alone. This particular part of the speech stuck in my mind: 'Many powers are against us but this time God is with us and we will win."
-    
-    e "For every action, there is an equal and opposite reaction. The elites and authorities further responded by portraying feminized males as the 'real male.' Centralists desperately tried to rally and mobilize femboys, soyboys, and feminists to defend the power structure. All was lost when the authorities’ femboy thugs clashed with the radicals. The femboys were no match to the radicals despite being armed with batons. The first encounter emboldened the radical and it all escalated."
+    #scene 2 Slobo’s Electric Speech
+
+    e "I watched the playback of the speech. It was different from your average boring centrist’s speech. I could feel the electric atmosphere and the sturdy hand gesture as he spoke."
+    e "Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young males like me."
+    e "The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore. The sudden realization made everything seem possible. "
+    e "It all made sense why young males were not well-off in modern society. I no longer feel alone. "
+
+    play movie "images/speech.webm"
+    $ renpy.pause(10.0, hard=True)
+    stop movie
+
+    e "This particular part of the speech stuck in my mind: 'Many powers are against us but this time God is with us and we will win."
+
+
+    #Scene 3: Clash of Ideologies
+
+    e "For every action, there is an equal and opposite reaction. The elites and authorities further responded by portraying feminized males as the 'real male.' "
+    e"Centralists desperately tried to rally and mobilize femboys, soyboys, and feminists to defend the power structure. All was lost when the authorities’ femboy thugs clashed with the radicals. "
+    e "The femboys were no match to the radicals despite being armed with batons. The first encounter emboldened the radical and it all escalated."
+
+    #Scene 4: Propaganda Spreads
 
     e "Propaganda from the radicals started to circulate portraying a muscular young male hero called Knock Out Man capable of knocking out the authorities’ femboy thug with a single punch."
 
-    e "Towns were divided between revolutionaries and counter-revolutionaries. The authorities began terrorizing the public, dragging potential revolutionaries to secret prisons. Black four-door sedans would show up in the middle of the night grabbing people. Those people were never seen again."
+    #Scene 5: Night of Terror
+    e "Towns were divided between revolutionaries and counter-revolutionaries. The authorities began terrorizing the public, dragging potential revolutionaries to secret prisons. "
+    e "Black four-door sedans would show up in the middle of the night grabbing people. Those people were never seen again."
 
-    e "The terror period resulted in radical parties forming their own paramilitary groups patrolling the streets. People cheered on as the young guards patrolled the street. The ranks were tightly closed with strong marching beats. People saw hope in this reimagined Canada. The street was cleaned. Radical groups handed out food to the homeless, elders, and the disenfranchised people. Parties’ banners fly all over the street. Previously closed shops were making guns. Even the moderate felt the pressure and replaced the national Canadian flag. Moderates were the new minority. Unity amongst provinces was gone. People questioned what they have in common with people in other provinces."
+    #Scene 6: Hope in the Streets
 
+    e "The terror period resulted in radical parties forming their own paramilitary groups patrolling the streets. People cheered on as the young guards patrolled the street. "
+    e"The ranks were tightly closed with strong marching beats. People saw hope in this reimagined Canada. "
+    e"The street was cleaned. Radical groups handed out food to the homeless, elders, and the disenfranchised people. Parties’ banners fly all over the street. "
+    e "Previously closed shops were making guns. Even the moderate felt the pressure and replaced the national Canadian flag. Moderates were the new minority. Unity amongst provinces was gone. "
+    e "People questioned what they have in common with people in other provinces."
+
+    #Scene 7: Descent into War
     e "The good days rarely last. Soon, we were at an economic crisis again and full-scale war broke out. The purpose of the war became less and less clear as the war went on."
 
 
