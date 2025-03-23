@@ -92,10 +92,9 @@ label splashscreen:
     scene disclaimer
     with Pause(5)
     hide disclaimer
+    
+    $ renpy.movie_cutscene("images/gunFightwithSound.webm")
 
-    play movie "images/gunFightwithSound.webm"  
-    $ renpy.pause(2.0, hard=True) 
-    stop movie
 
     return
 
@@ -141,10 +140,8 @@ label start:
     stop music
     show scene6
     
-    play movie "images/pound.webm"  # Use the path from your screenshot
-    $ renpy.pause(7.0, hard=True)  # 7 seconds duration as you specified
-    stop movie
-    
+    $ renpy.movie_cutscene("images/pound.webm")
+
     play  sound "audio/artillery.mp3"
     scene scene6
     e "The city is surrounded by eerie gloomy hills. Within the gloomy hills lay the artilleries staring down at us waiting to pound us."
@@ -180,10 +177,7 @@ label second:
     stop music
     show scene12
 
-
-    play movie "images/bodies.webm"  # Use the path from your screenshot
-    $ renpy.pause(6.0, hard=True)  # 6 seconds duration as you specified
-    stop movie
+    $ renpy.movie_cutscene("images/bodies.webm")
 
     scene scene12
     e "Now my food source is just new dead bodies that I can find on the street. It is not as bad as you think."
@@ -249,9 +243,7 @@ label fifth:
     #bonus
     show scene27
     
-    play movie "images/rocket.webm"  # Use the path from your screenshot
-    $ renpy.pause(4.0, hard=True)  # 4 seconds duration as you specified
-    stop movie
+    $ renpy.movie_cutscene("images/rocket.webm")
 
     scene scene27
     e "My daily routine is really not that different from the pre-war period. After I wake up, I wait until the artillery fire stops, then different paramilitary forces start shooting at each other."
@@ -325,9 +317,7 @@ label eighth:
 
     scene scene46
 
-    play movie "images/shortage.webm"  # Use the path from your screenshot
-    $ renpy.pause(15.0, hard=True)  # 15 seconds duration as you specified
-    stop movie
+    $ renpy.movie_cutscene("images/shortage.webm")
     
     scene scene46
     e "Soon it was announced that citizens must do their parts by conserving food so they could send it to the front line. As expected, this caused mass panic."
@@ -340,9 +330,7 @@ label eighth:
 
     scene scene49
 
-    play movie "images/shelling.webm"  # Use the path from your screenshot
-    $ renpy.pause(24.0, hard=True)  # 24 seconds duration as you specified
-    stop movie
+    $ renpy.movie_cutscene("images/shelling.webm")
     
     scene scene49
     e "It did not take long before my town was under siege and shelled. The establishment could no longer hide the truth. People were forced to wake up to the reality."
@@ -372,9 +360,7 @@ label ninth:
 
     scene scene56
     
-    play movie "images/collapse.webm"  # Use the path from your screenshot
-    $ renpy.pause(3.0, hard=True)  # 3 seconds duration as you specified
-    stop movie
+    $ renpy.movie_cutscene("images/collapse.webm")
 
     scene scene56
     e "It is hard to nail what single factor started the war. It just falls like a house of cards. Before the start of the civil war, Canada underwent 3 years of economic hardship." 
@@ -408,9 +394,8 @@ label tenth:
     e "The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore. The sudden realization made everything seem possible. "
     e "It all made sense why young males were not well-off in modern society. I no longer feel alone. "
 
-    play movie "images/speech.webm"
-    $ renpy.pause(10.0, hard=True)
-    stop movie
+
+    $ renpy.movie_cutscene("images/speech.webm")
 
     e "This particular part of the speech stuck in my mind: 'Many powers are against us but this time God is with us and we will win."
 
