@@ -87,6 +87,8 @@ image scene59 = "bg/ninth/scene6.png"
 image scene60 = "bg/ninth/scene7.png"
 image scene61 = "bg/ninth/scene8.png"
 
+#Imagine resource for the tenth part
+image sceneGod = "bg/tenth/god.png"
 label splashscreen:
     stop music
     scene disclaimer
@@ -382,6 +384,7 @@ label ninth:
 
 label tenth:
     stop music
+    play music "audio/I_know_only_you.mp3"
 
     #scene 1  The Spark of Rebellion
     e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live. "
@@ -396,7 +399,7 @@ label tenth:
 
 
     $ renpy.movie_cutscene("images/speech.webm")
-
+    scene sceneGod
     e "This particular part of the speech stuck in my mind: 'Many powers are against us but this time God is with us and we will win."
 
 
