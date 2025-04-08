@@ -89,6 +89,12 @@ image scene61 = "bg/ninth/scene8.png"
 
 #Imagine resource for the tenth part
 image sceneGod = "bg/tenth/god.png"
+image scene62 = "bg/tenth/scene62.png"
+image scene63 = "bg/tenth/scene63.png"
+image scene64 = "bg/tenth/scene64.png"
+
+
+
 label splashscreen:
     stop music
     scene disclaimer
@@ -387,11 +393,12 @@ label tenth:
     play music "audio/I_know_only_you.mp3"
 
     #scene 1  The Spark of Rebellion
+    scene scene62
     e "His name is Slobo. Despite mainstream media blackout, it was broadcasted on all the major alt-tech and alt-media. I did not watch it live. "
     e "I came across it through the dissenter network. The footage was reposted, shared, and upvoted. Phrases like 'reimagineCanada' and 'Do you want to be part of the new future' were trending."
     
     #scene 2 Slobo’s Electric Speech
-
+    scene scene63
     e "I watched the playback of the speech. It was different from your average boring centrist’s speech. I could feel the electric atmosphere and the sturdy hand gesture as he spoke."
     e "Not only did the speech resonate in my head, the speech sparked new imagination in the minds of young males like me."
     e "The surge of new-found realization was infectious; the air was filled with a spirit of togetherness which was hard to ignore. The sudden realization made everything seem possible. "
@@ -404,9 +411,12 @@ label tenth:
 
 
     #Scene 3: Clash of Ideologies
-
+    scene scene64
     e "For every action, there is an equal and opposite reaction. The elites and authorities further responded by portraying feminized males as the 'real male.' "
     e"Centralists desperately tried to rally and mobilize femboys, soyboys, and feminists to defend the power structure. All was lost when the authorities’ femboy thugs clashed with the radicals. "
+    
+    $ renpy.movie_cutscene("images/fight.webm")
+    
     e "The femboys were no match to the radicals despite being armed with batons. The first encounter emboldened the radical and it all escalated."
 
     #Scene 4: Propaganda Spreads
