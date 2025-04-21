@@ -92,7 +92,7 @@ image sceneGod = "bg/tenth/god.png"
 image scene62 = "bg/tenth/scene62.png"
 image scene63 = "bg/tenth/scene63.png"
 image scene64 = "bg/tenth/scene64.png"
-
+image scene65 = "bg/tenth/scene65.png"
 
 
 label splashscreen:
@@ -420,7 +420,7 @@ label tenth:
     e "The femboys were no match to the radicals despite being armed with batons. The first encounter emboldened the radical and it all escalated."
 
     #Scene 4: Propaganda Spreads
-
+    scene scene65
     e "Propaganda from the radicals started to circulate portraying a muscular young male hero called Knock Out Man capable of knocking out the authorities’ femboy thug with a single punch."
 
     #Scene 5: Night of Terror
